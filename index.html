@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href="http://fonts.googleapis.com/css?family=Crafty+Girls|Gochi+Hand" rel="stylesheet" type="text/css">
+    <title>Haskell 中文社区</title>
+
+    <style text="text/css">
+     body {
+       margin: 0 auto;
+       width: 800px;
+       font-family: 'Crafty Girls', 'Gochi Hand', 'Adelle Basic', Helvetica, sans-serif;
+     }
+     div.main {
+       margin: 200px 0 0 0;
+     }
+     p.container {
+       font-size: 40px;
+       margin-top: 5px;
+     }
+     
+     .container a {
+       color: #000;
+       text-decoration: none;
+     }
+     .container a:hover {
+       color: #4E6272;
+       border-bottom: #4E6272 dotted 1px;
+       
+     }
+     .showOnHover {
+       float: right;
+       color: red;
+       display: none;
+     }
+     .comment {
+        color: #999;
+     }
+    </style>
+
+    </head>
+    
+    <body>
+      <div class="main">
+          <p class="comment"> -- | Haskell 中文社区 </p>
+          <p class="container">
+              data HaskellCN = HaskellCN 
+                               <a href="http://www.douban.com/group/topic/28920097/" target="_blank" class="blog" title="博客">Blog</a> 
+                               <a href="http://www.douban.com/group/topic/28920097/" target="_blank" class="forum" title="论坛">Forum</a>
+          </p>
+          <p class="showOnHover" style="display: none; ">准备中。。。</p>
+      </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript"> 
+  $(function() {
+   $(".container a").hover(
+        function() { $(this).parent().next("p.showOnHover").fadeIn("slow"); }
+      , function(){ $(this).parent().next("p.showOnHover").fadeOut("slow"); });
+  });   
+  </script>
+    
+
+
+</body></html>
