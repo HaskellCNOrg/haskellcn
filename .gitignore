@@ -1,0 +1,6 @@
+_site
+_cache
+*.o
+*.hi
+dist
+src/hakyll
