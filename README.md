@@ -1,1 +1,2 @@
-  - [http://www.haskellcn.org/](Haskell中文社区)
+## Haskell中文社区
+  - [主页](http://www.haskellcn.org/)
