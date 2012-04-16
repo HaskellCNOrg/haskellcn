@@ -1,0 +1,1 @@
+  - [http://www.haskellcn.org/](Haskell中文社区)
