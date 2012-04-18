@@ -1,5 +1,5 @@
 ---
-title: TEST BLOG: Objects created at one commit
+title: DELETE ME: Objects created at one commit
 author: Haisheng, Wu
 tags: git
 ---

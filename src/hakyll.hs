@@ -54,8 +54,8 @@ main = hakyllWith config $ do
         >>> relativizeUrlsCompiler
 
     -- Render Blog Index
-    match "blog.html" $ route idRoute
-    create "blog.html" $ constA mempty
+    match "blog/index.html" $ route idRoute
+    create "blog/index.html" $ constA mempty
         >>> arr (setField "title" "Home")
         >>> requireA "tags" (setFieldA "tagcloud" (renderTagCloud'))
         >>> requireAllA postsWildcardMatch (id *** arr (take 10 . reverse . sortByBaseName) >>> addPostList)
