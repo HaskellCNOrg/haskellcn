@@ -24,9 +24,11 @@ main = hakyllWith config $ do
         compile copyFileCompiler
 
     -- 
-    match "sidebar.md" $ do
+    forM_ ["sidebar.md","about.md"] $ \ p -> match p $ do
         route   $ setExtension ".html"
         compile $ pageCompiler
+              >>> applyTemplateCompiler "templates/default.html"
+              >>> relativizeUrlsCompiler
         
     match "cv.md" $ do
         route   $ setExtension ".html"
