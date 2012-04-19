@@ -24,11 +24,11 @@ main = hakyllWith config $ do
         compile copyFileCompiler
 
     -- 
-    forM_ ["about.md"] $ \ p -> match p $ do
-        route   $ setExtension ".html"
-        compile $ pageCompiler
-              >>> applyTemplateCompiler "templates/default.html"
-              >>> relativizeUrlsCompiler
+    match "about.html" $ route idRoute
+    create "about.html" $ constA mempty
+        >>> applyTemplateCompiler "templates/about.html"
+        >>> applyTemplateCompiler "templates/default.html"
+        >>> relativizeUrlsCompiler        
         
     match "cv.md" $ do
         route   $ setExtension ".html"
