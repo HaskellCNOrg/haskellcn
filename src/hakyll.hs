@@ -24,7 +24,7 @@ main = hakyllWith config $ do
         compile copyFileCompiler
 
     -- 
-    forM_ ["sidebar.md","about.md"] $ \ p -> match p $ do
+    forM_ ["about.md"] $ \ p -> match p $ do
         route   $ setExtension ".html"
         compile $ pageCompiler
               >>> applyTemplateCompiler "templates/default.html"
@@ -47,8 +47,8 @@ main = hakyllWith config $ do
             >>> relativizeUrlsCompiler
 
     -- Render Post Archive Page
-    match "allposts.html" $ route idRoute
-    create "allposts.html" $ constA mempty
+    match "blog/allposts.html" $ route idRoute
+    create "blog/allposts.html" $ constA mempty
         >>> arr (setField "title" "所有文章")
         >>> requireAllA postsWildcardMatch addPostList
         >>> applyTemplateCompiler "templates/posts.html"
@@ -80,7 +80,7 @@ main = hakyllWith config $ do
     match "index.html" $ route idRoute
     create "index.html" $ constA mempty
         >>> arr (setField "title" "Home")
-        >>> requireA "sidebar.md" (setFieldA "index" $ arr pageBody)        
+--        >>> requireA "sidebar.md" (setFieldA "index" $ arr pageBody)        
         >>> requireA "tags" (setFieldA "tagcloud" (renderTagCloud'))
         >>> requireAllA postsWildcardMatch (id *** arr (take 10 . reverse . sortByBaseName) >>> addPostList)
         >>> applyTemplateCompiler "templates/index.html"
