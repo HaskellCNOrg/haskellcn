@@ -39,7 +39,7 @@ main = hakyllWith config $ do
     -- Render posts
     match postsWildcardMatch $ do
         route   $ setExtension ".html"
-        compile $ pageCompilerWithToc
+        compile $ pageCompiler
             >>> arr (renderDateField "date" "%B %e, %Y" "Date unknown")
             >>> renderTagsField "prettytags" (fromCapture "tags/*")
             >>> applyTemplateCompiler "templates/post.html"

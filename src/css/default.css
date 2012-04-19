@@ -50,7 +50,9 @@ li:target, h2:target, h3:target {
 .navbar .nav > li > a.brand {
     padding: 10px 15px 11px;
 }
-
+li {
+line-height: 24px;
+}
 
 /* ---------------------------------------- Syntak  */
 
