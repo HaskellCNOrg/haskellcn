@@ -30,7 +30,7 @@ main = hakyllWith config $ do
         >>> applyTemplateCompiler "templates/default.html"
         >>> relativizeUrlsCompiler        
         
-    match "cv.md" $ do
+    match "study.md" $ do
         route   $ setExtension ".html"
         compile $ pageCompiler
               >>> applyTemplateCompiler "templates/default.html"
