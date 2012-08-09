@@ -28,6 +28,7 @@ preview:
 	$(PROG) preview 9900
 
 deploy: build
+	cd $(SITE) && ../gzall.pl 
 	$(PROG) deploy
 
 p: preview
