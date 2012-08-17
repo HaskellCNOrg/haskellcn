@@ -11,7 +11,7 @@
 
 ## 书籍
 
-1. [Learn You a Haskell for Great Good](http://learnyouahaskell.com/chapters)
+1. Learn You a Haskell for Great Good [EN](http://learnyouahaskell.com/chapters) [CN](http://fleurer-lee.com/lyah/)
 2. [A Gentle Introduction to Haskell](http://www.haskell.org/tutorial/)
 3. [Real World Haskell](http://book.realworldhaskell.org/)
 4. [Wiki Books - Haskell](http://en.wikibooks.org/wiki/Haskell)
