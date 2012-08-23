@@ -2,6 +2,7 @@
 PROG  = ./hakyll
 SOURCES = hakyll.hs
 HC=ghc
+CABAL_CONF=./cabal-dev/packages-7.4.1.conf
 
 SITE=_site
 CACHE=_cache
@@ -11,7 +12,7 @@ CACHE=_cache
 default: build
 
 $(PROG) : $(SOURCES)
-	$(HC) --make $< -o $@
+	$(HC) -package-conf $(CABAL_CONF) --make $< -o $@
 
 clean:
 	rm -f $(SOURCES:.hs=.hi) $(SOURCES:.hs=.o) $(PROG)
