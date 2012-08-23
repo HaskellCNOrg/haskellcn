@@ -1,3 +1,4 @@
+cabal-dev
 _site
 _cache
 *.o
