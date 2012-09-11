@@ -1,5 +1,6 @@
 ## 课程
 
+0. [Programming in Haskell](http://www.cs.nott.ac.uk/~gmh/book.html)
 1. [CIS 552: Advanced Programming - Stephanie Weirich](http://www.seas.upenn.edu/~cis552/)
 2. [Parallel Functional Programming - John Hughes](http://www.cse.chalmers.se/edu/course/pfp/index.html)
 3. [Foundations of Computing Science](http://events.cs.bham.ac.uk/mgs2012/)
