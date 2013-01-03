@@ -15,7 +15,7 @@
 ## 书籍
 
   - A Gentle Introduction to Haskell [英文](http://www.haskell.org/tutorial/)
-  - Learn You a Haskell for Great Good [英文](http://learnyouahaskell.com/chapters) [中文](http://fleurer-lee.com/lyah/)
+  - Learn You a Haskell for Great Good [英文](http://learnyouahaskell.com/chapters) [中文](http://learnyouahaskell-zh-tw.csie.org/)
   - Real World Haskell [英文](http://book.realworldhaskell.org/) [中文](https://rwh.readthedocs.org/en/latest/)
   - Wiki Books/Haskell [英文](http://en.wikibooks.org/wiki/Haskell) [中文](http://zh.wikibooks.org/wiki/Haskell)
 
