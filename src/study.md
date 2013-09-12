@@ -8,6 +8,7 @@
 
 ## 演讲
 
+  - [A Taste of Haskell - SPJ](http://blip.tv/oreilly-open-source-convention/oscon-2007-simon-peyton-jones-a-taste-of-haskell-part-i-329701)
   - [The Future is Parallel, and the Future of Parallel is Declarative - SPJ](http://yow.eventer.com/events/1004/talks/1055)
   - [Escape From the Ivory Tower - SPJ](http://yow.eventer.com/events/1004/talks/1054)
   - [High Performance concurrency - Simon Marlow](http://skillsmatter.com/podcast/home/high-performance-concurrency)
