@@ -22,7 +22,7 @@
   - Learn You a Haskell for Great Good [英文](http://learnyouahaskell.com/chapters) [中文](http://learnyouahaskell-zh-tw.csie.org/)
   - Real World Haskell [英文](http://book.realworldhaskell.org/) [中文](https://rwh.readthedocs.org/en/latest/)
   - Wiki Books/Haskell [英文](http://en.wikibooks.org/wiki/Haskell) [中文](http://zh.wikibooks.org/wiki/Haskell)
-  - [Haskell函数式编程入门](http://book.douban.com/subject/25843224/)
+  - [Haskell函数式编程入门 by 张淞](http://book.douban.com/subject/25843224/)
 
 ## 论文
   - [Haisheng的收集](http://code.google.com/p/ipaper/)
