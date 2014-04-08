@@ -1,13 +1,13 @@
 ## 课程
 
   - [Programming in Haskell](http://www.cs.nott.ac.uk/~gmh/book.html)
+  - [INFORMATICS 1 – FUNCTIONAL PROGRAMMING by Phipl Wadler](http://www.youtube.com/playlist?list=PLey3KIETJDP-6dIBWfFWjKkz4AC88qN7t)
   - [CS240h: Functional Systems in Haskell](http://www.scs.stanford.edu/11au-cs240h/)
   - [CIS 552: Advanced Programming - Stephanie Weirich](http://www.seas.upenn.edu/~cis552/)
   - [Parallel Functional Programming - John Hughes](http://www.cse.chalmers.se/edu/course/pfp/index.html)
   - [Foundations of Computing Science](http://events.cs.bham.ac.uk/mgs2012/)
   - [CS 1501 Lectures - Introduction to Haskell by University of Virginia](http://shuklan.com/haskell/index.html)
-  - [INFORMATICS 1 – FUNCTIONAL PROGRAMMING by Phipl Wadler](http://www.youtube.com/playlist?list=PLey3KIETJDP-6dIBWfFWjKkz4AC88qN7t)
-  
+
 
 ## 演讲
 
