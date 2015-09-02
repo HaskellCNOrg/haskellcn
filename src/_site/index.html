@@ -10,6 +10,22 @@
         <link rel="stylesheet" type="text/css" href="./css/m.css" />
         <link rel="stylesheet" type="text/css" href="./css/default.css" />
         <link rel="shortcut icon" href="./images/favicon.ico" />
+        <style>
+            html, body {
+                height: 100%;
+            }
+            #wrapper {
+                min-height: 100%;
+            }
+            .main{
+                padding-bottom: 30px;
+                overflow: hidden;
+            }
+            footer.page-footer.blue-grey.darken-3 {
+                padding-top: 0;    /* Overwrite the useless padding */
+                margin-top: -70px; /* Equals to the height of footer element */
+            }
+        </style>
         <script type="text/javascript">
          var _gaq = _gaq || [];
          _gaq.push(['_setAccount', 'UA-31150305-1']);
@@ -24,6 +40,8 @@
 
     </head>
     <body>
+<div id="wrapper">
+<div id="main">
         <nav class="blue-grey darken-3" role="navigation">
             <div class="nav-wrapper container">
                 <a id="logo-container" href="./" class="brand-logo">Haskell 中文</a>
@@ -76,7 +94,8 @@
     <div class="section">
     </div>
 </div>
-
+</div>
+</div>
 
         <footer class="page-footer blue-grey darken-3">
             <div class="container">
