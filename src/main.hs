@@ -13,7 +13,7 @@ main = hakyllWith defaultConfiguration $ do
         compile compressCssCompiler
 
     -- Static directories
-    match ("images/*" .||. "font/**/*") $ do
+    match ("images/*" .||. "font/**/*" .||. "_redirects") $ do
         route   idRoute
         compile copyFileCompiler
 
