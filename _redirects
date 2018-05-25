@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+https://a.haskellcn.org/* https://github.com/HaskellCNOrg/haskellcn/issues 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://haskellcn.netlify.com/* https://www.haskellcn.org/:splat 301!
