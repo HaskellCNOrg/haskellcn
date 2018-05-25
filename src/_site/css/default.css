@@ -1,1 +1,1 @@
-body{display:flex;min-height:100vh;flex-direction:column}#main{flex:1 0 auto}nav .brand-logo{font-size:1.8rem}.page-footer .footer-copyright a{padding-left:5px;margin-left:5px}
+body{display:flex;min-height:100vh;flex-direction:column}#main{flex:1 0 auto}nav .brand-logo{font-size:1.8rem}.page-footer .footer-copyright a{padding-left:5px;margin-left:5px}.img-responsive{display:block;max-width:100%;height:auto}

@@ -6,3 +6,4 @@ src/hakyll
 .cabal-sandbox
 cabal.sandbox.config
 bower_components
+.stack-work

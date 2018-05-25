@@ -16,3 +16,8 @@ nav .brand-logo {
   padding-left: 5px;
   margin-left: 5px;
 }
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
