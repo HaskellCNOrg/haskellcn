@@ -1,9 +1,6 @@
+.DS_Store
+.idea
+*.log
+tmp/
+dist-newstyle
 _cache
-*.o
-*.hi
-dist
-src/hakyll
-.cabal-sandbox
-cabal.sandbox.config
-bower_components
-.stack-work
